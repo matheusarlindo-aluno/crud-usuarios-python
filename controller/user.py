@@ -1,6 +1,3 @@
-from flask import make_response, jsonify, request
-# from service.user import salvarUserService, listagemTodosUsuariosService, listarApenasUmUsuarioService, atualizarUmUsuarioService, removerUmUsuarioService, loginService
-
 lista = [{'nome': 'Luiz', "email": "teste@teste.com", "senha": "1234", "CPF": "22233344455"},
         {'nome': 'Beatriz', "email": "teste1@teste2.com", "senha": "12345", "CPF": "11122233344"},
         {'nome': 'João', "email": "teste2@teste3.com", "senha": "123456", "CPF": "55566677788"} ]
